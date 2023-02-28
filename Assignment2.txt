@@ -1,0 +1,59 @@
+------------------------------------------Invoice webapp--------------------------------
+
+-> INTRODUCTION
+    - used python for this project as im more comfortable with it
+    - tried to keep the process as simple as possible by using tools which i thought are best suited for this project
+    - instead of focusing only on design ,i wanted to create a basic yet effective design which does the job
+    - Happy to see that this webapp works fine without any error
+
+
+**********please note that to send email you have to provide your own details**********
+
+
+
+
+----------------------------------------Libraries used---------------------------------------------------------
+
+-> TKINTER
+ -for front end i used tkinter as it's  the standard GUI library for Python. Python when combined
+    with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented
+    interface to the Tk GUI toolkit.
+ - tkinter replaced HTML,JS which made the task easier
+
+
+->  ReportLab
+    -to generate  invoice pdf i used ReportLab (An Open Source Python library for generating PDFs and graphics.)
+    - tried to make invoice as professional as possible by including img,sig,gts etc
+
+
+-> smtplib
+   -to send email to customer i used smtplib module (it defines an SMTP client session object that can be used to
+                                         send mail to any Internet machine with an SMTP)
+
+-> MIME
+    -to send pdf i used MIME (Multipurpose Internet Mail Extensions) is an extension of the original Simple Mail Transport Protocol (SMTP)
+    email protocol. It lets users exchange different kinds of data files, including audio, video, images and application
+    programs, over email
+
+-> PANDAS
+   -to make dataframe which we get from the user i used PANDAS(it is a Python package that provides fast,
+   flexible, and expressive data structures designed to make working with "relational" or "labeled" data both
+   easy and intuitive.
+   - to store the data i converted it to CSV file which later can be used accordingly
+
+
+
+
+
+------------------------likes / dislikes----------------------
+-the thing i like about my project is that its not overkill although i added some extra entries to get more data
+-the process and design is very user-friendly which is suited for projects like this
+-the code is compact and clean
+- has the ability to be further enhanced
+
+
+
+
+
+
+
